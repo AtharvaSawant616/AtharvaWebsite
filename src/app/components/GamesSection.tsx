@@ -37,8 +37,8 @@ const GamesSection = () => {
     teamSize: 'Team Project',
     status: 'Course Final Project',
     videoId: 'jT6rRoSXL5A', // YouTube video ID
-    playLink: '#', // Placeholder - will be updated
-    playLinkStatus: 'updating', // 'working', 'broken', 'updating', 'missing'
+    playLink: 'https://play.google.com/store/apps/details?id=com.ATaleOfTummbad&hl=es', // Placeholder - will be updated
+    playLinkStatus: 'working', // 'working', 'broken', 'updating', 'missing'
     tags: ['Course Project', 'Mobile', 'Narrative', 'Free to Play']
   };
 
