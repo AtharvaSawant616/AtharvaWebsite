@@ -71,8 +71,8 @@ const GamesSection = () => {
       status: 'Capstone Project',
       videoType: 'youtube',
       videoId: 'xz7FScekakg',
-      playLink: '#',
-      playLinkStatus: 'missing',
+      playLink: 'https://atharvasawant.itch.io/daoist-from-the-mountain',
+      playLinkStatus: 'working',
       tags: ['Capstone', 'Puzzle', 'Unity']
     },
     {
@@ -86,7 +86,7 @@ const GamesSection = () => {
       status: 'Personal Project',
       videoType: 'youtube',
       videoId: 'Gnl7P6q5Rq4',
-      playLink: '#',
+      playLink: 'none',
       playLinkStatus: 'missing',
       tags: ['Solo', 'Blueprints', 'C++', 'UE5']
     }
@@ -118,7 +118,7 @@ const GamesSection = () => {
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 flex items-center gap-2"
           >
             <Play className="w-5 h-5" />
-            Play Game
+            Download Game
           </a>
         );
       case 'updating':
