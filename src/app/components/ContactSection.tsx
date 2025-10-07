@@ -123,7 +123,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Location</div>
-                    <div className="text-gray-600">Boston, MA • Open to relocation</div>
+                    <div className="text-gray-600">Ashburn, VA, USA • Open to relocation</div>
                   </div>
                 </div>
               </div>
@@ -151,7 +151,15 @@ const ContactSection = () => {
                     <ExternalLink className="w-4 h-4 text-gray-500" />
                   </a>
                   <button className="flex items-center justify-between w-full p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                    <span className="font-medium text-gray-900">Download Resume</span>
+                    <a
+                      href="https://drive.google.com/file/d/1Tq-PuhoZSBEYZYrI71XVsg4ZESH3C275/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+                    >
+                      <span className="font-medium text-gray-900">Download Resume</span>
+                      <ExternalLink className="w-4 h-4 text-gray-500" />
+                    </a>
                     <Download className="w-4 h-4 text-blue-600" />
                   </button>
                 </div>
