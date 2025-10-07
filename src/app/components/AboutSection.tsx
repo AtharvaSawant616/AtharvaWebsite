@@ -295,7 +295,7 @@ const AboutSection = () => {
               Get In Touch
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1Tq-PuhoZSBEYZYrI71XVsg4ZESH3C275/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center justify-center gap-2"
